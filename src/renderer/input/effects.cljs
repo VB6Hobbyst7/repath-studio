@@ -29,7 +29,8 @@
                                                     :y y}}])))
 
        "file"
-       (let [file (.getAsFile item)
-             file-handle (.getAsFileSystemHandle item)]
-         (rf/dispatch [::element.events/import-file
-                       file-handle file position]))))))
+       (let [file (.getAsFile item)]
+         (some-> (.getAsFileSystemHandle item)
+                 (.then (fn [handle]
+                          (rf/dispatch [::element.events/import-file
+                                        handle file position])))))))))

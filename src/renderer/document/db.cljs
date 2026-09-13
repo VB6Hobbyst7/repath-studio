@@ -3,7 +3,7 @@
    [config :as config]
    [malli.core :as m]
    [malli.transform :as m.transform]
-   [renderer.db :refer [Vec2 JS_Object]]
+   [renderer.db :refer [Vec2]]
    [renderer.element.db :refer [Element ElementId]]
    [renderer.history.db :refer [History HistoryIndex]]
    [renderer.tool.db :refer [HandleId]]))
@@ -25,7 +25,7 @@
    [:grid {:optional true} boolean?]])
 
 (def Document
-  [:map
+  [:map {:closed true}
    [:id {:optional true
          :persist true} DocumentId]
    [:title {:optional true
@@ -49,7 +49,7 @@
                       :rulers true
                       :guides true}} DocumentAttrs]
    [:preview-label {:optional true} string?]
-   [:file-handle {:optional true} JS_Object]])
+   [:file-handle {:optional true} any?]])
 
 (def PersistedDocument
   (->> Document
