@@ -680,7 +680,7 @@
   :create-doc "إنشاء مستند"
   :create-doc-from-template "إنشاء مستند من قالب"
   :load-doc "تحميل مستند"
-  :error-loading "خطأ أثناء تحميل %1"
+  :error-loading "خطأ أثناء تحميل المستند"
   :unsupported-or-corrupted "يبدو أن الملف غير مدعوم أو تالف."}
 
  :renderer.document.views

@@ -714,7 +714,7 @@
   :create-doc "Crear documento"
   :create-doc-from-template "Crear documento desde plantilla"
   :load-doc "Cargar documento"
-  :error-loading "Error al cargar %1"
+  :error-loading "Error al cargar el documento"
   :unsupported-or-corrupted "El archivo parece no ser compatible o estar
                              corrupto."}
 

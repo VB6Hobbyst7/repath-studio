@@ -667,7 +667,7 @@
   :create-doc "ドキュメントを作成"
   :create-doc-from-template "テンプレートからドキュメントを作成"
   :load-doc "ドキュメントを読み込み"
-  :error-loading "%1の読み込みエラー"
+  :error-loading "ドキュメントの読み込みエラー"
   :unsupported-or-corrupted "ファイルがサポートされていないか破損しているようです。"}
 
  :renderer.document.views

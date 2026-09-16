@@ -727,7 +727,7 @@
   :create-doc "Dokument erstellen"
   :create-doc-from-template "Dokument aus Vorlage erstellen"
   :load-doc "Dokument laden"
-  :error-loading "Fehler beim Laden von %1"
+  :error-loading "Fehler beim Laden des Dokuments"
   :unsupported-or-corrupted "Datei scheint nicht unterstützt oder beschädigt zu
                              sein."}
 

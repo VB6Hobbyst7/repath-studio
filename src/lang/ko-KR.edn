@@ -661,7 +661,7 @@
   :create-doc "문서 생성"
   :create-doc-from-template "템플릿으로 문서 생성"
   :load-doc "문서 로드"
-  :error-loading "%1 로드 중 오류"
+  :error-loading "문서 로드 중 오류"
   :unsupported-or-corrupted "파일이 지원되지 않거나 손상된 것 같습니다."}
 
  :renderer.document.views

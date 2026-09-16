@@ -285,9 +285,7 @@
          {:dispatch [::load document]}))
      {::app.effects/toast
       [:error
-       (i18n.handlers/t db
-                        [::error-loading "Error while loading %1"]
-                        [(:title document)])
+       (i18n.handlers/t db [::error-loading "Error while loading the document"])
        {:description
         (i18n.handlers/t db
                          [::unsupported-or-corrupted

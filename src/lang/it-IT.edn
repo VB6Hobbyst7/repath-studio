@@ -725,7 +725,7 @@
   :create-doc "Crea documento"
   :create-doc-from-template "Crea documento da modello"
   :load-doc "Carica documento"
-  :error-loading "Errore durante il caricamento di %1"
+  :error-loading "Errore durante il caricamento del documento"
   :unsupported-or-corrupted "Il file sembra non supportato o danneggiato."}
 
  :renderer.document.views

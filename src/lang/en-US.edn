@@ -698,7 +698,7 @@
   :create-doc "Create document"
   :create-doc-from-template "Create document from template"
   :load-doc "Load document"
-  :error-loading "Error while loading %1"
+  :error-loading "Error while loading the document"
   :unsupported-or-corrupted "File appears to be unsupported or corrupted."}
 
  :renderer.document.views

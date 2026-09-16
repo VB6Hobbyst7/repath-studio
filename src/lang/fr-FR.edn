@@ -721,7 +721,7 @@
   :create-doc "Créer un document"
   :create-doc-from-template "Créer un document à partir d'un modèle"
   :load-doc "Charger un document"
-  :error-loading "Erreur lors du chargement de %1"
+  :error-loading "Erreur lors du chargement du document"
   :unsupported-or-corrupted "Le fichier semble être non pris en charge ou
                              corrompu."}
 

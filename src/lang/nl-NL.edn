@@ -726,7 +726,7 @@
   :create-doc "Document maken"
   :create-doc-from-template "Document maken van sjabloon"
   :load-doc "Document laden"
-  :error-loading "Fout bij het laden van %1"
+  :error-loading "Fout bij het laden van het document"
   :unsupported-or-corrupted "Bestand lijkt niet ondersteund of beschadigd."}
 
  :renderer.document.views

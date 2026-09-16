@@ -619,7 +619,7 @@
   :create-doc "创建文档"
   :create-doc-from-template "从模板创建文档"
   :load-doc "加载文档"
-  :error-loading "加载 %1 时出错"
+  :error-loading "加载文档时出错"
   :unsupported-or-corrupted "文件似乎不受支持或已损坏。"}
 
  :renderer.document.views

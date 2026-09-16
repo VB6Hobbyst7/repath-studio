@@ -710,7 +710,7 @@
   :create-doc "Создать документ"
   :create-doc-from-template "Создать документ из шаблона"
   :load-doc "Загрузить документ"
-  :error-loading "Ошибка при загрузке %1"
+  :error-loading "Ошибка при загрузке документа"
   :unsupported-or-corrupted "Файл не поддерживается или повреждён."}
 
  :renderer.document.views

@@ -711,7 +711,7 @@
   :create-doc "Skapa dokument"
   :create-doc-from-template "Skapa dokument från mall"
   :load-doc "Ladda dokument"
-  :error-loading "Fel vid laddning av %1"
+  :error-loading "Fel vid inläsning av dokumentet"
   :unsupported-or-corrupted "Filen verkar vara ostödd eller skadad."}
 
  :renderer.document.views

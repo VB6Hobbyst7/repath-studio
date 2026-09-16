@@ -704,7 +704,7 @@
   :create-doc "Belge oluştur"
   :create-doc-from-template "Şablondan belge oluştur"
   :load-doc "Belge yükle"
-  :error-loading "%1 yüklenirken hata"
+  :error-loading "Belge yüklenirken hata oluştu"
   :unsupported-or-corrupted "Dosya desteklenmiyor veya bozuk görünüyor."}
 
  :renderer.document.views
