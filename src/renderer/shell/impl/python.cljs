@@ -122,7 +122,7 @@
 (def aliases
   {"del" "delete"
    "raise" "bring_forward"
-   "lower" "send_forward"})
+   "lower" "send_backward"})
 
 (defn- clj->py-name
   [name-str]
