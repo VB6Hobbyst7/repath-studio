@@ -1,10 +1,6 @@
 {:deps {:aliases [:dev]}
 
- :build-defaults {:build-hooks [(shadow-git-inject.core/hook)
-                                (build.generator.icon/hook!)
-                                (build.generator.bcd/hook!)
-                                (build.generator.shell-dsl/hook!)
-                                (build.generator.schema-graph/hook!)]
+ :build-defaults {:build-hooks [(shadow-git-inject.core/hook)]
                   :compiler-options {:source-map true
                                      :silence-optimizations-warning true
                                      :output-feature-set :es-unsupported
