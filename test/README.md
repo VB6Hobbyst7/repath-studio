@@ -45,6 +45,6 @@ without modifying the db.
 
 ## CI/CD
 
-The test are automatically run on pull requests, and every time we push changes
+The tests are automatically run on pull requests, and every time we push changes
 to our `main` branch or release a tag. If the tests fail, the web application is
 not going to be updated, and the desktop binaries are not going to be released.
