@@ -112,7 +112,6 @@
   (->> [[js/document "keydown" [::input.events/keyboard] impl.keyboard/->clj]
         [js/document "keyup" [::input.events/keyboard] impl.keyboard/->clj]
         [js/document "fullscreenchange" [::window.events/update-fullscreen]]
-        [js/document "visibilitychange" [::window.events/update-visibility]]
         [js/window "focus" [::window.events/update-focused]]
         [js/window "blur" [::window.events/update-focused]]
         [js/window "resize" [::window.events/update-width]]

@@ -46,12 +46,12 @@
 (m/=> recenter-to-dom-rect [:-> App DomRect App])
 (defn recenter-to-dom-rect
   [db updated-dom-rect]
-  (let [{:keys [document-tabs dom-rect]} db
-        delta-rect (merge-with - dom-rect updated-dom-rect)
-        offset (matrix/div [(:width delta-rect) (:height delta-rect)] 2)]
-    (if-not (-> db :window :visible)
+  (let [{:keys [document-tabs dom-rect]} db]
+    (if-not dom-rect
       db
-      (reduce (rpartial pan-by offset) db document-tabs))))
+      (let [delta-rect (merge-with - dom-rect updated-dom-rect)
+            offset (matrix/div [(:width delta-rect) (:height delta-rect)] 2)]
+        (reduce (rpartial pan-by offset) db document-tabs)))))
 
 (m/=> zoom-at-position [:-> App number? Vec2 App])
 (defn zoom-at-position

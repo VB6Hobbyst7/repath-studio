@@ -46,12 +46,6 @@
    {:db (assoc-in db [:window :fullscreen] fullscreen)}))
 
 (rf/reg-event-fx
- ::update-visibility
- [(rf/inject-cofx ::window.effects/visible)]
- (fn [{:keys [db visible]} _]
-   {:db (assoc-in db [:window :visible] visible)}))
-
-(rf/reg-event-fx
  ::close
  (fn [_ _]
    {::window.effects/close nil}))
