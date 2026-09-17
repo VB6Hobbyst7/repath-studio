@@ -512,8 +512,7 @@
 
 (comment
   (dotimes [x 25]
-    (circle [(+ (* x 30) 40) (+ (* (js/Math.sin x) 10) 200)]
-            10
+    (circle (+ (* x 30) 40) (+ (* (js/Math.sin x) 10) 200) 10
             {:fill (str "hsl(" (* x 10) " ,50% , 50%)")}))
 
   (register-action {:id :history/undo-twice
