@@ -36,7 +36,7 @@ jobs:
           rules-repository: 'git://clj-holmes/clj-holmes-rules#main'
           output-type: 'sarif'
           output-file: 'clj-holmes-results.sarif'
-          fail-on-result: 'false'
+          fail-on-result: 'true'
 
       - name: Upload analysis results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v4
