@@ -81,7 +81,7 @@
                         db
                         [::paste-warning-message
                          "Pasting code that you don't understand can be
-                          extremely dangarous. Event if you understand the code
+                          extremely dangerous. Even if you understand the code
                           that you see, commands copied from untrusted sources
                           might hide malicious content."])
               :cancel-event [::focus]
